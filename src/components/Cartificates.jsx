@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-
+import udemyLogo from "../assets/logos/udemy.png";
+import livroLogo from "../assets/logos/livros.png";
 const Cartificates = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -22,7 +23,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/udemy.png"
+                  src={udemyLogo}
                   alt="Ícone"
                   className="w-10 h-10 mr-4 rounded-full"
                 />
@@ -35,7 +36,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/udemy.png"
+                  src={udemyLogo}
                   alt="Ícone"
                   class="w-10 h-10 mr-4 rounded-full"
                 />
@@ -48,7 +49,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/udemy.png"
+                  src={udemyLogo}
                   alt="Ícone"
                   class="w-10 h-10 mr-4 rounded-full"
                 />
@@ -73,7 +74,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/livros.png"
+                  src={livroLogo}
                   alt="Ícone"
                   className="w-10 h-10 mr-4 rounded-full"
                 />
@@ -88,7 +89,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/livros.png"
+                  src={livroLogo}
                   alt="Ícone"
                   className="w-10 h-10 mr-4 rounded-full"
                 />
@@ -103,7 +104,7 @@ const Cartificates = () => {
             <div className="bg-neutral-900 p-6 rounded-xl shadow-lg hover:bg-purple-900 transition-colors duration-200">
               <div className="flex items-center mb-4">
                 <img
-                  src="../src/assets/logos/livros.png"
+                  src={livroLogo}
                   alt="Ícone"
                   className="w-10 h-10 mr-4 rounded-full"
                 />

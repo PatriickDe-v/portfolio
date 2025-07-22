@@ -1,5 +1,4 @@
 import project1 from "../assets/projects/project_1.png";
-
 export const EXPERIENCES = [
   {
     year: "Jan de 2025 - Até o momento - 7 meses",
